@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #80f89a;
+}
+
+.container {
+    background-color: #07f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.user {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.user h2 {
+    margin: 0 0 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #0004ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #07f513;
+}
+
+.tareas {
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.tarea {
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 3px;
+}
+
+.tarea.completed {
+    background-color: #d4edda;
+}
+
+.tarea.not-completed {
+    background-color: #f8d7da;
+}
